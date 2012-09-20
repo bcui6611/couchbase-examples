@@ -44,3 +44,10 @@ OPTIONS:
   `-s QUOTA`,                          RAM quota for the bucket. Unit is MB. Default is 100MB.
 
   `-h` --help                          Show this help message and exit
+
+Example
+-------
+
+    # Upload documents archived in zip file ../samples/gamesim.zip. All data will be inserted in bucket mybucket
+    #
+    ./cbdocloader  -n localhost:8091 -u Administrator -p password -b mybucket ../samples/gamesim.zip
