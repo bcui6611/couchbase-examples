@@ -57,6 +57,6 @@ Errors
 
 These are kinds of error cases to consider ...
 
-    * JSON files are not well formatted
-    * Wrong REST username and password
-    * Bucket cannot be created due to too large ram quota specified.
+* JSON files are not well formatted
+* Wrong REST username and password
+* Bucket cannot be created due to too large ram quota specified.
