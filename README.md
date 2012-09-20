@@ -51,3 +51,11 @@ Example
     # Upload documents archived in zip file ../samples/gamesim.zip. All data will be inserted in bucket mybucket
     #
     ./cbdocloader  -n localhost:8091 -u Administrator -p password -b mybucket ../samples/gamesim.zip
+
+Errors
+------
+
+These are kinds of error cases to consider ...
+    . JSON files are not well formatted
+    . Wrong REST username and password
+    . Bucket cannot be created due to too large ram quota specified.
