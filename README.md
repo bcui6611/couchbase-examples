@@ -29,7 +29,7 @@ Generally speaking, the document directory should have the following layout:
     /design_docs    which contains all the design docs for views.
     /docs           which contains all the raw json data files. It can have other sub directories too.
 
-All json files should be well formatted. And no spaces allowed in file names.
+All json files should be well formatted. And no spaces allowed in file names. Design docs will be uploaded after all other data files.
 
 OPTIONS:
 
