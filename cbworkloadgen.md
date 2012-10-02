@@ -38,7 +38,7 @@ OPTIONS:
 
   `-v`, --verbose                      Verbose logging; more -v's provide more verbosity
 
-  `-h` --help                          Show this help message and exit
+  `-h` --help                          Show this help message and exit 
 
 Example
 -------
