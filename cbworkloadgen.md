@@ -1,7 +1,11 @@
 cbworkloadgen
 =============
 
+<<<<<<< HEAD
 We use this tool to generate workload for couchbase server. The tool can generate predefined workload or run in loop mood until it is stopped.
+=======
+We use this tool to generate workload for couchbase server. The tool can generate predefined workload or run in loop mode until it is stopped.
+>>>>>>> initial draft
 
 Run command
 ------------
@@ -20,11 +24,11 @@ OPTIONS:
 
   `-i ITEMS`, --item=ITEMS             Number of items to be inserted. 
 
-  `-r RATIO`, --ratio=RATIO            set/get operation ratio, which is a value between 0 and 1. Default is .95 that means 95% set operations.
+  `-r RATIO`, --ratio=RATIO            set/get operation ratio, which is a value between 0 and 1. Default .95 means 95% are set operations.
 
   `-s SIZE`, --size=SIZE               minimum value size. Default is 10 bytes.
 
-  `-j`, --json                         Insert json data. Default is false
+  `-j`, --json                         Insert json format data. Default is false
 
   `-l`, --loop                         Loop forever until it is interrupted by users
 
