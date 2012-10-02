@@ -39,11 +39,13 @@ OPTIONS:
 Example
 -------
 
-    Upload 10000 json documents to localhost and to default bucket
+
+Upload 10000 json documents to localhost and to default bucket
 
     ./cbworkloadgen -n localhost -i 10000 -j
 
-    Generate continuous workload to node 10.3.121.192 with 75% set and 25% get operations
+
+Generate continuous workload to node 10.3.121.192 with 75% set and 25% get operations
 
     ./cbworkloadgen -n 10.3.121.192:8091 -r .75 -l
 
