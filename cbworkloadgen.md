@@ -1,11 +1,7 @@
 cbworkloadgen
 =============
 
-<<<<<<< HEAD
-We use this tool to generate workload for couchbase server. The tool can generate predefined workload or run in loop mood until it is stopped.
-=======
 We use this tool to generate workload for couchbase server. The tool can generate predefined workload or run in loop mode until it is stopped.
->>>>>>> initial draft
 
 Run command
 ------------
